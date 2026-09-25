@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   lint-and-test:
-    name: Lint
+    name: Lint and unit tests
     runs-on: ubuntu-latest
 
     steps:
@@ -27,3 +27,6 @@ jobs:
 
       - name: Lint
         run: ruff check .
+
+      - name: Unit tests
+        run: pytest -q

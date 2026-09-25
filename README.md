@@ -11,6 +11,8 @@ python -m legislative_report --data-dir data --output-dir output
 ## File Structure
 ```
 ligislativedata/
+├── .github/
+│   ├── ci.yml
 ├── legislative_report/
 │   ├── __init__.py
 │   ├── __main__.py               
@@ -19,7 +21,9 @@ ligislativedata/
 │   ├── reader.py                  
 │   ├── report_builder.py          
 │   ├── writer.py                  
-│   └── cli.py                     
+│   └── cli.py
+├── tests/
+│   ├── test_reader.py                         
 ├── data/                          
 ├── output/                        
 └── README.md

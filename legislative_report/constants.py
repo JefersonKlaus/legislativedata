@@ -1,0 +1,4 @@
+DEFAULT_LEGISLATORS_FILENAME = "legislators.csv"
+DEFAULT_BILLS_FILENAME = "bills.csv"
+DEFAULT_VOTES_FILENAME = "votes.csv"
+DEFAULT_VOTE_RESULTS_FILENAME = "vote_results.csv"
