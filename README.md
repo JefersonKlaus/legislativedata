@@ -1,9 +1,10 @@
 # Legislative Data
 
-
+## Running the scripts
 ```bash
-cd quorum_challenge
+source venv/bin/activate
 python -m legislative_report
+or
 python -m legislative_report --data-dir data --output-dir output
 ```
 

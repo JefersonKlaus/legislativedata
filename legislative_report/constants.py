@@ -1,6 +1,11 @@
 VOTE_TYPE_YEA = 1
 VOTE_TYPE_NAY = 2
 
+UNKNOWN_SPONSOR_LABEL = "Unknown"
+
+LEGISLATORS_REPORT_FILENAME = "legislators-support-oppose-count.csv"
+BILLS_REPORT_FILENAME = "bills-report.csv"
+
 DEFAULT_LEGISLATORS_FILENAME = "legislators.csv"
 DEFAULT_BILLS_FILENAME = "bills.csv"
 DEFAULT_VOTES_FILENAME = "votes.csv"
